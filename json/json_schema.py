@@ -1,6 +1,6 @@
 #!/usr/bin/python
-
-#prints the schema of a json file
+#simple json parser
+# prints the schema of a json file
 # usage: json_schema.py jsonfilename
 
 import sys
