@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#simple joson plotting tools
 
 import json
 import matplotlib.pyplot as plt
