@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#simple json parser
+# simple json parser, modified 09/22
 # prints the schema of a json file
 # usage: json_schema.py jsonfilename
 
