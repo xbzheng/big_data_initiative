@@ -7,4 +7,5 @@ lines.count()
 words = lines.flatMap(lambda line : line.split(" "))
 tuples = words.map(lambda word : (word, 1))
 counts = tuples.reduceByKey(lambda a, b: (a + b))
+#save to the HDFS
 counts.coalesce(1).saveAsTextFile('hdfs:/user/cloudera/wordcount/outputDir')
